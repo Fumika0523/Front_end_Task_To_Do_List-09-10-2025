@@ -23,7 +23,7 @@ const TaskItem = ({ task, handleCompleteTask, openEditModal, handleDeleteTask })
             onChange={() => handleCompleteTask(task.id)}
             color="primary"
           />
-          <IconButton onClick={() => openEditModal(task)} color="primary">
+          <IconButton onClick={() => openEditModal(task)} color="success">
             <Edit />
           </IconButton>
           <IconButton onClick={() => handleDeleteTask(task.id)} color="error">
