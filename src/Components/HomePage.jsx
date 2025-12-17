@@ -326,7 +326,7 @@ const taskData = tasks.find(t => t._id === id)
           >
             {mode === 'light' ? (
               <MdDarkMode
-                style={{ fontSize: 24, color: 'rgba(23, 3, 94, 1)' }}
+                style={{ fontSize: 24, color: 'rgba(67, 67, 81, 1)' }}
               />
             ) : (
               <MdLightMode
